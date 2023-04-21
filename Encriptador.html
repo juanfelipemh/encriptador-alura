@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resetEstilo.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><img src="img/Logo.svg" alt="Logo_alura">Encriptador - Juan Felipe Muñoz Hurtado</h1>
+    </header>
+    <main>
+        <div class="caja-izquierda">
+            <div>
+                <textarea id="mensaje" class="cuadro-texto" 
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="caja-boton">
+                <button onclick="encriptar()" class="encriptar">Encriptar</button>
+                <button onclick="desencriptar()" class="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="caja-derecha">
+            <div class="pantalla" id="verMensaje">
+                <img src="img/Muñeco.svg" alt="muñeco_alura">
+                <p class="titulo-pantalla">Ningún mensaje fue encontrado</p>
+                <p class="texto-pantalla">Ingrese el texto que desees encriptar o desencriptar</p>
+                <!-- <div class="boton-copiar">
+                    <button class="encriptar">Copiar</button>
+                </div> -->
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/juanfelipemh" target="_blank"><i class='fa fa-github'
+                style='color:#ffffff'></i></a>
+        <a href="https://www.linkedin.com/in/juanfelipemh/" target="_blank"><i class='fa fa-linkedin'
+                    style='color:#ffffff'></i></a>
+    </footer>
+    <script src="logica.js"></script>
+</body>
+
+</html>
