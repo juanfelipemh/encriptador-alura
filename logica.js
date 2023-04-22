@@ -19,7 +19,7 @@ function encriptar() {
     let vista = document.getElementById("verMensaje").innerHTML = `<div class="caja-derecha">
                                                                         <div class="caja-derecha">
                                                                             <div id="verMensaje" style="padding: 25px">
-                                                                                <p id="textoCopiado" class="titulo-pantalla" style="min-width: 380px; max-height: 25px; text-align: left">${textoEncriptado}</p>
+                                                                                <p id="textoCopiado" class="titulo-pantalla" style="text-align: left">${textoEncriptado}</p>
                                                                             </div>
 
                                                                         </div>
@@ -44,7 +44,7 @@ function desencriptar() {
     let vista = document.getElementById("verMensaje").innerHTML = `<div class="caja-derecha">
                                                                         <div class="caja-derecha">
                                                                             <div id="verMensaje" style="padding: 25px">
-                                                                                <p id="textoCopiado" class="titulo-pantalla" style="min-width: 380px; max-height: 25px; text-align: left">${textoEncriptado}</p>
+                                                                                <p id="textoCopiado" class="titulo-pantalla" style="text-align: left">${textoEncriptado}</p>
                                                                             </div>
 
                                                                         </div>

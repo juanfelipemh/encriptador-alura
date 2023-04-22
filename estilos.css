@@ -115,7 +115,7 @@ main {
 
 .pantalla .boton-copiar {
     padding: 0 100%;
-    margin-top: 200%; 
+    margin-top: 215%; 
 }
 
 .boton {
@@ -146,6 +146,12 @@ main {
     
 }
 
+p#textoCopiado.titulo-pantalla{
+    width: 400px;
+    height: 0px;
+}
+
+
 /* Pie de página */ 
 footer { 
     position: absolute;
@@ -165,4 +171,164 @@ footer a {
     text-decoration: none;
     font-style: italic;
     margin: 0 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    .logo {
+        position: relative;
+        left: 5px;
+        top: 20px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .pantalla {
+        height: 100%;
+    }
+
+    .pantalla img {
+        width: 75%;
+    }
+
+    .cuadro-texto {
+        font-size: 20px;
+    }
+
+    .encriptar {
+        width: 30%;
+        margin: 0 10px;
+        padding: 25px;
+        background-color: #0A3871;
+        color: #FFFFFF;
+        border-radius: 24px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .encriptar:hover {
+        font-size: 20px;
+    }
+
+    .desencriptar {
+        width: 30%;
+        margin: 0 10px;
+        padding: 25px;
+        background-color: #D8DFE8;
+        color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        font-size: 18px;
+        cursor: pointer;    
+    }
+    
+    .desencriptar:hover {
+        font-size: 20px;
+    }
+
+    .boton {
+        width: 210px;
+    }
+
+    .pantalla .boton-copiar {
+        margin: 0 0 0 45%;
+        margin-top: 300%; 
+    }
+
+    p#textoCopiado.titulo-pantalla{
+        width: 240px;
+        height: 0px;
+        font-size: 18px;
+    }    
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        position: relative;
+        left: 5px;
+        top: 20px;
+    }
+
+    main {
+        display: block;
+    }
+
+    .caja-derecha {
+        margin: 20px;
+    }
+
+    .caja-izquierda {
+        margin: 20px;
+    }
+
+    .pantalla {
+        padding: 0 80%;
+        
+    }
+
+    .cuadro-texto {
+        width: 100%;
+    }
+
+    .caja-boton {
+        width: 90%;
+        margin-left: 30%;
+    }
+
+    .encriptar {
+        width: 50%;
+        margin: 0 10px;
+        padding: 0 15px;
+        background-color: #0A3871;
+        color: #FFFFFF;
+        border-radius: 24px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .encriptar:hover {
+        font-size: 18px;
+    }
+
+    .desencriptar {
+        width: 50%;
+        margin: 0 10px;
+        padding: 15px;
+        background-color: #D8DFE8;
+        color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        font-size: 16px;
+        cursor: pointer;    
+    }
+    
+    .desencriptar:hover {
+        font-size: 18px;
+    }
+
+    .pantalla img {
+        width: 90%;
+        
+    }
+
+    .titulo-pantalla {
+        font-size: 15px;
+    }
+
+    .texto-pantalla {
+        font-size: 15px;
+    }
+
+    p#textoCopiado.titulo-pantalla{
+        position: absolute;
+        left: 50px;
+        width: 420px;
+        height: 0px;
+        font-size: 16px;
+    }    
+
+    footer {
+        position: inherit;
+    }
 }
