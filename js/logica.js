@@ -8,7 +8,7 @@ let textoCopiado;
 
 
 function encriptar() {
-    let textoHTML = document.getElementById("mensaje").value;
+    let textoHTML = document.getElementById("mensaje").value.toLowerCase();
     let textoEncriptado;
     if (textoHTML !== "") {
         textoEncriptado = textoHTML.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
@@ -33,7 +33,7 @@ function encriptar() {
 
 
 function desencriptar() {
-    let textoHTML = document.getElementById("mensaje").value;
+    let textoHTML = document.getElementById("mensaje").value.toLowerCase();
     let textoEncriptado;
     if (textoHTML !== "") {
         textoEncriptado = textoHTML.replace(/ai/g, "a").replace(/enter/g, "e").replace(/imes/g, "i").replace(/ober/g, "o").replace(/ufat/g, "u");
