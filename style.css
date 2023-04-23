@@ -73,10 +73,12 @@ main {
     border-radius: 24px;
     font-size: 25px;
     cursor: pointer;
+    transition: 1s all;
 }
 
 .encriptar:hover {
     font-size: 27px;
+    box-shadow: 0px 24px 32px -8px #0A3871;
 }
 
 .desencriptar {
@@ -88,11 +90,13 @@ main {
     border: 1px solid #0A3871;
     border-radius: 24px;
     font-size: 25px;
-    cursor: pointer;    
+    cursor: pointer;  
+    transition: 1s all;  
 }
 
 .desencriptar:hover {
     font-size: 27px;
+    box-shadow: 0px 24px 32px -8px #0A3871;
 }
 
 
@@ -117,6 +121,7 @@ main {
     padding: 0 100%;
     margin-top: 215%; 
 }
+
 
 .boton {
     width: 350px;
@@ -163,6 +168,7 @@ footer {
     color: #FFFFFF;
     font-size: 15px;  
     line-height: 2em;  
+    
 }
 
 footer a {
@@ -171,6 +177,11 @@ footer a {
     text-decoration: none;
     font-style: italic;
     margin: 0 10px;
+}
+
+footer i:hover {
+    font-size: 40px;
+    transition: 0.5s all;
 }
 
 @media screen and (max-width: 1440px) {
