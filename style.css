@@ -346,7 +346,7 @@ footer i:hover {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
     h1 {
         text-align: center;
     }
@@ -381,7 +381,5 @@ footer i:hover {
     
     .desencriptar:hover {
         font-size: 13px;
-    }
-
-    
+    }  
 }
